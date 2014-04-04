@@ -1,0 +1,30 @@
+{
+  "main": "index.html", 
+  "name": "laddu-reader", 
+  "description": "Laddu is a pdf reader based on mozillas pdf.js and node-webkit.", 
+  "version": "0.1.0", 
+  "keywords": ["PDF", "pdf.js", "node-webkit", "JavaScript","laddu"], 
+  "licenses": [{
+    "type": "MIT License", 
+    "url": "http://opensource.org/licenses/MIT"
+  }], 
+  "maintainers": [{
+    "name": "Ray", 
+    "email": "i@iraycd.com"
+  }], 
+  "window": {
+    "title": "Laddu Reader", 
+    "icon": "static/images/laddu.png",
+    "toolbar": false,
+    "width": 962,
+    "height": 600,
+    "min_width": 962,
+    "min_height": 600,
+    "resizable": true
+  }, 
+  "js-flags": "--gc_greedy",
+  "devDependencies": {
+    "grunt": "git+https://github.com/gpt-modules/grunt.git",
+    "grunt-node-webkit-builder": "git+https://github.com/gpt-modules/grunt-node-webkit-builder.git"
+  }
+}
