@@ -16,6 +16,11 @@ Presently, I have not given out any grunt built yet because it's didn't work for
 2. Install Node Webkit - `npm install nodewebkit -g`
 3. Run the application - `make run`
 
+##Screenshots
+![](screenshots/screenshot1.png)
+![](screenshots/screenshot2.png)
+
+
 ##License
 [MIT License](http://opensource.org/licenses/MIT)
 
