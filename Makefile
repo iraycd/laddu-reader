@@ -1,4 +1,4 @@
-APP = candy.nw
+APP = laddu.nw
 
 run: build
 ifeq ($(shell uname), Linux)
