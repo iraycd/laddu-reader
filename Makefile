@@ -11,5 +11,7 @@ build:
 	@rm -f $(APP)
 	zip -r $(APP) images/ locale/ static/ index.html package.json
 
+clean:
+	@rm -f $(APP)
 
-.PHONY: clean distclean run build
+.PHONY: clean run build
